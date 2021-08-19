@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Georgia", sans-serif;
+  }
+
+body {
+    height: 100%;
+    width: 100%;
+    background: lightblue;
+  }
+
+#main-content {
+    text-align: center;
+    }
+
+#colorado-breweries {
+    text-align: left;
+    background: white;
+    font-size: xx-large;
+    color: blue;
+    margin: 40px
+}
+
+#favorite-list {
+    margin: 50px;
+    border: 1px solid black;
+    background: rgb(52, 125, 52);
+    padding: 15px 20px 18px 18px;
+}
+
+#breweries-list {
+    font-size: large;
+    color: black
+}
+
+#location-search-form {
+    font-size: x-large;
+
+}

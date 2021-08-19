@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Colorado Brewery Favorites List</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div id="main-content">
+            <h1>Colorado Breweries List Maker</h1>
+            <figure>
+                <img src="https://learn.kegerator.com/wp-content/uploads/2014/06/beer-flight.jpg">
+                <figcaption>"Let's drink some Colorado brewed beer!</figcaption>
+            </figure>
+            <form id="location-search-form" action="" method="POST">
+                <label for="location">Search by location:</label>
+                <input type="text" id="city" name="location" placeholder="City in CO">
+                <input type="submit" id='search' value="Search">
+              </form>
+            <div id="colorado-breweries">
+                <label for="colorado-breweries">Colorado Breweries: </label>
+                <ul id="breweries-list">
+
+                </ul>
+            </div>
+            <section id="favorite-list">
+                <h2>Favorite Breweries List</h2>
+                <ul id="list"> </ul>
+            </section>
+            
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
